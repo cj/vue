@@ -1,0 +1,11 @@
+# Rule Configuration
+rules:
+  class-name-format: 0
+  quotes:
+    - 1
+    - style: double
+  no-misspelled-properties:
+	  - 1
+	  -
+      'extra-properties':
+        - 'lost-column'

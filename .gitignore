@@ -1,0 +1,27 @@
+# Directories
+coverage/
+node_modules/
+dist/
+tmp/
+
+# Extensions
+*.gz
+*.log
+*.rar
+*.tar
+*.zip
+*.sql
+
+# IDE generated
+.idea/
+.project
+*.iml
+
+# OS generated
+__MACOSX/
+.DS_Store
+Thumbs.db
+
+# Configs
+*.env
+.tern-port

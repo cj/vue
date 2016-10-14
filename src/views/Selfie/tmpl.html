@@ -1,0 +1,9 @@
+<div>
+  <app-header :image='logoImage' />
+  <main>
+    <component v-if="component" v-bind:is="component" />
+  </main>
+  <app-footer>
+    footer
+  </app-footer>
+</div>

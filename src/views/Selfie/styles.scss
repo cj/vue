@@ -1,0 +1,12 @@
+@import "~assets/styles/variables";
+
+main {
+  bottom: $footer-height;
+  left: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: $spacing;
+  position: fixed;
+  right: 0;
+  top: $header-height;
+}

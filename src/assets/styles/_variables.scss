@@ -1,0 +1,19 @@
+// Media
+$break-small: 480px;
+$break-large: 1024px;
+$font-size: 0.9rem;
+$font-weight: 400;
+$scaler: 0.25em;
+$spacing: $scaler * 2.5;
+$headers: h1  h2  h3  h4  h5  h6;
+$headers-scaler: 1.6 1.5 1.4 1.3 1.2 1.1;
+$header-height: 4em;
+$header-img-height: $header-height - ($spacing * 2);
+$footer-height: 3em;
+$primary-color: #033860;
+$secondary-color: #044271;
+$tertiary-color: #989898;
+$accent-color: #42769e;
+$color: darken($tertiary-color, 30%);
+$color-inverted: #ffffff;
+$error-color: #990000;

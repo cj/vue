@@ -1,0 +1,15 @@
+@import "~assets/styles/variables";
+
+%content {
+  bottom: 0;
+  bottom: $footer-height;
+  left: 0;
+  overflow-y: auto;
+  position: absolute;
+  top: $header-height;
+  width: 100%;
+}
+
+%error {
+  color: $error-color;
+}
